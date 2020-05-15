@@ -19,9 +19,9 @@ import numpy as np
 import json
 import matplotlib.pyplot as plt
 
-credits_ = pd.read_csv('demond_data\\tmdb-movie-metadata\\tmdb_5000_credits.csv',encoding='utf-8',engine='python')
+credits_ = pd.read_csv(r'tmdb-movie-metadata\tmdb_5000_credits.csv',encoding='utf-8',engine='python')
 # print(credits_.info())
-movies = pd.read_csv('demond_data\\tmdb-movie-metadata\\tmdb_5000_movies.csv',encoding='utf-8',engine='python')
+movies = pd.read_csv(r'tmdb-movie-metadata\tmdb_5000_movies.csv',encoding='utf-8',engine='python')
 # print(movies.info())
 
 #根据sum确定title是否对应
